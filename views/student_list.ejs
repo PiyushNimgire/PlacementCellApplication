@@ -1,0 +1,10 @@
+<h1>Students</h1>
+<a href="/students/create">Add Student</a>
+
+<ul>
+    <% for(let i=0; i<students.length; i++){ %>
+        <li>
+            <%= students[i].name %>
+        </li>
+    <% } %>
+</ul>

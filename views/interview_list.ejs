@@ -1,0 +1,13 @@
+<h1>Interviews</h1>
+
+<a href="/interviews/create">Add Interview</a>
+
+<ul>
+    <% interviews.forEach(function(interview){ %>
+        <li>
+            <a href="/interviews/interview/<%= interview.id %>">
+                <%= interview.company_name%>
+            </a>
+        </li>
+    <% }); %>
+</ul>

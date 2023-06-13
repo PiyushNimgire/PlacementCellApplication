@@ -1,0 +1,14 @@
+<form action="/students/create-student" method="post">
+    <input type="text" name="name" placeholder="Student Name" required>
+    <input type="text" name="batch" placeholder="Enter Batch Name" required>
+    <input type="text" name="college" placeholder="Enter College Name" required>
+    <input type="number" name="dsaFinalScore" placeholder="Enter DSA Final Exam Score" required>
+    <input type="number" name="webDFinalScore" placeholder="Enter Web Dev Final Exam Score" required>
+    <input type="number" name="reactFinalScore" placeholder="Enter React Final Exam Score" required>
+    <label for="status">Select status:</label>
+    <select name="status" id="status">
+        <option value="placed">Placed</option>
+        <option value="not_placed">Not Placed</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
