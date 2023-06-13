@@ -1,10 +1,13 @@
+<link rel="stylesheet" href="/css/student_list.css">
 <h1>Students</h1>
 <a href="/students/create">Add Student</a>
 
-<ul>
-    <% for(let i=0; i<students.length; i++){ %>
-        <li>
-            <%= students[i].name %>
-        </li>
-    <% } %>
-</ul>
+<div class="student_list">
+    <ul>
+        <% for(let i=0; i<students.length; i++){ %>
+            <li>
+                <%= students[i].name %>
+            </li>
+        <% } %>
+    </ul>
+</div>

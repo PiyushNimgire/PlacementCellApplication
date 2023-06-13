@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+form input{
+    border-radius: 5px;
+    text-align: center;
+}
